@@ -61,6 +61,6 @@ body {
 
 header {
   width: 100vw;
-  background: url("../staticStoreFront/assets/images/pcWareHeaderCrop.jpg") no-repeat;
+  background: url("../storeFront/assets/images/pcWareHeaderCrop.jpg") no-repeat;
   background-size: cover;
 }
