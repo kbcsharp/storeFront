@@ -74,7 +74,7 @@ header {
   flex-direction: row-reverse;
   justify-content: space-between;
   color: white;
-  background: url("../assets/images/pcWareHeaderCrop.jpg") no-repeat;
+  background: url("../storeFront/assets/images/pcWareHeaderCrop.jpg") no-repeat;
   background-size: cover;
   border-radius: 20px 20px 0 0;
 }
@@ -121,4 +121,15 @@ aside h2 {
 
 aside a {
   color: cyan;
+}
+
+section {
+  margin: 25px 0 25px 15px;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, cornflowerblue, seagreen);
+  color: white;
+}
+
+section h4 {
+  text-align: center;
 }
