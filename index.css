@@ -76,7 +76,7 @@ header {
   flex-direction: column-reverse;
   justify-content: space-between;
   color: white;
-  background: url("../assets/images/pcWareHeaderCrop.jpg") no-repeat;
+  background: url("../storeFront/assets/images/pcWareHeaderCrop.jpg") no-repeat;
   background-size: cover;
   border-radius: 20px;
   font-family: sans-serif;
