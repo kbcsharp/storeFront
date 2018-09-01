@@ -163,6 +163,10 @@ section {
   font-size: 1.6em;
 }
 
+#section-container a {
+  color: white;
+}
+
 #search {
   text-align: center;
 }
