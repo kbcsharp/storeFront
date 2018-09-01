@@ -149,7 +149,6 @@ section {
 }
 
 #section-container {
-  color: white;
   font-size: 1.2rem;
   height: 700px;
   display: flex;
@@ -180,12 +179,7 @@ section {
 }
 
 #cat-list li a {
-  color: white;
   text-decoration: none;
-}
-
-#cat-list li a:link {
-  color: white;
 }
 
 #cat-list li a:visited {
@@ -368,11 +362,25 @@ footer a:hover {
   aside {
     grid-area: banner;
     display: block;
-  }
-
-  aside {
     text-align: center;
     background-image: linear-gradient(to bottom, cornflowerblue, seagreen);
+  }
+
+  aside h2 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
   }
 
   aside h2 {
