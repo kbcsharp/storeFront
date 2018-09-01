@@ -67,16 +67,16 @@ body {
   background: #081326;
 }
 
-.wrapper {
-  /* background: url("../assets/images/circuitBoard.jpg"); */
-}
+/* .wrapper {
+  background: url("../assets/images/circuitBoard.jpg");
+} */
 
 header {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
   color: white;
-  background: url("../storeFront/assets/images/pcWareHeaderCrop.jpg") no-repeat;
+  background: url("../storeFront/assets/images/pcWareHeaderCrop.jpg");
   background-size: cover;
   border-radius: 20px;
   font-family: sans-serif;
