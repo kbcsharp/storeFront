@@ -176,6 +176,7 @@ section {
 }
 
 #cat-list li a {
+  color: white;
   text-decoration: none;
 }
 
