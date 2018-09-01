@@ -180,6 +180,10 @@ section {
   text-decoration: none;
 }
 
+#cat-list li a:link {
+  color: white;
+}
+
 #cat-list li a:visited {
   color: white;
 }
