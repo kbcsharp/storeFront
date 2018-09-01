@@ -52,19 +52,8 @@ html {
 }
 
 body {
-  background: linear-gradient(
-    240deg,
-    #026824,
-    #00533e,
-    #003c40,
-    #10252b,
-    #303336,
-    #696a70,
-    #aaa8ae,
-    #f0e9f0
-  );
   background: darkslategray;
-  background: #081326;
+  /* background: #081326; */
 }
 
 /* .wrapper {
@@ -172,6 +161,7 @@ section {
 
 #search-input {
   width: 80%;
+  font-size: 2em;
 }
 
 #cat-list li {
@@ -401,7 +391,7 @@ footer a:hover {
   }
 
   #search-input {
-    width: 90%;
+    width: 100%;
   }
 
   main {
