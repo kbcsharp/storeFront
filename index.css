@@ -361,6 +361,22 @@ footer a:hover {
     animation-name: slidein;
   }
 
+  aside a:link {
+    color: cyan;
+  }
+
+  aside a:visited {
+    color: cyan;
+  }
+
+  aside a:hover {
+    background: darkslategray;
+    border-radius: 10px;
+    font-size: 1.5em;
+    padding: 5px;
+    color: white;
+  }
+
   @keyframes slidein {
     from {
       margin-right: 100%;
