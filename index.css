@@ -182,6 +182,11 @@ section {
   transition: all 0.3s ease-in;
 }
 
+#cat-list li a:active {
+  padding: 4px;
+  border: 1px solid darkslategray;
+}
+
 #store-cat-section ul li {
   list-style-type: none;
 }
