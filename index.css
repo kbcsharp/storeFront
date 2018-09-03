@@ -179,7 +179,6 @@ section {
 #cat-list li a:hover {
   color: cornflowerblue;
   background-color: white;
-  /* text-decoration: underline; */
   transition: all 0.3s ease-in;
 }
 
@@ -228,6 +227,13 @@ main img {
   border-radius: 10px;
   height: 170px;
   width: 260px;
+  box-shadow: 8px 8px 8px rgba(39, 70, 89, 0.7);
+  margin-bottom: 10px;
+}
+
+.product-title {
+  text-decoration: underline;
+  margin-bottom: 7px;
 }
 
 footer {
