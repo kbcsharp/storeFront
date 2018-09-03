@@ -53,19 +53,14 @@ html {
 
 body {
   background: darkslategray;
-  /* background: #081326; */
 }
-
-/* .wrapper {
-  background: url("../assets/images/circuitBoard.jpg");
-} */
 
 header {
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
   color: white;
-  background: url("../assets/images/pcWareHeaderCrop.jpg");
+  background: url("../storeFront/assets/images/pcWareHeaderCrop.jpg");
   background-size: cover;
   border-radius: 20px;
   font-family: sans-serif;
@@ -379,8 +374,8 @@ footer a:hover {
 
   aside a:hover {
     background: darkslategray;
-    border-radius: 10px;
-    font-size: 1.5em;
+    border-radius: 5px;
+    font-size: 1.2em;
     padding: 5px;
     color: white;
   }
